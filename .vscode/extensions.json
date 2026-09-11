@@ -1,0 +1,12 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "Vue.volar",
+    "bradlc.vscode-tailwindcss",
+    "antfu.iconify",
+    "EditorConfig.EditorConfig"
+  ],
+  "unwantedRecommendations": [
+    "esbenp.prettier-vscode"
+  ]
+}

@@ -1,0 +1,253 @@
+{
+  "brand": {
+    "name": "NORMA",
+    "tagline": "Web studio"
+  },
+  "seo": {
+    "title": "NORMA — web studio. Websites and products built without compromise",
+    "description": "We design and build fast websites, landing pages and web applications with Nuxt and Vue. One team from the first brief to release."
+  },
+  "nav": {
+    "services": "Services",
+    "process": "Process",
+    "work": "Work",
+    "faq": "FAQ",
+    "contact": "Start a project",
+    "language": "Language",
+    "theme": "Toggle theme",
+    "menu": "Menu",
+    "github": "GitHub"
+  },
+  "hero": {
+    "badge": "Taking projects for Q4 2026",
+    "title": "Websites and products\nbuilt without compromise",
+    "subtitle": "We design and build fast websites, landing pages and web applications with Nuxt and Vue. One team from the first brief to release.",
+    "primary": "Start a project",
+    "secondary": "See our work",
+    "copy": "Copy e-mail",
+    "copied": "Copied",
+    "specs": {
+      "stack": "Nuxt · Vue · TS",
+      "speed": "LCP < 1s",
+      "design": "Design system",
+      "since": "Since 2018"
+    }
+  },
+  "clients": {
+    "label": "Trusted by"
+  },
+  "services": {
+    "headline": "Services",
+    "title": "Full cycle: from idea\nto a stable release",
+    "description": "We take the whole project or join at any stage. No middlemen, no inflated estimates, a visible result every week.",
+    "items": {
+      "landing": {
+        "title": "Landing pages and corporate sites",
+        "description": "Pages that convert, with a clear structure, fast loading and analytics from day one."
+      },
+      "apps": {
+        "title": "Web applications",
+        "description": "Customer portals, dashboards and SaaS on Nuxt, Vue and TypeScript. Architecture that survives growth."
+      },
+      "design": {
+        "title": "UI/UX design",
+        "description": "Design systems, prototypes and interfaces that need no explanation."
+      },
+      "ecommerce": {
+        "title": "E-commerce",
+        "description": "Stores with a fast catalogue, payments and integrations with CRM, stock and delivery."
+      },
+      "performance": {
+        "title": "Performance and SEO",
+        "description": "Core Web Vitals in the green, SSR, technical SEO and structured data."
+      },
+      "support": {
+        "title": "Support and growth",
+        "description": "Calm maintenance: monitoring, dependency updates, new features on a roadmap."
+      }
+    }
+  },
+  "process": {
+    "headline": "Process",
+    "title": "Four steps,\nno surprises",
+    "description": "A transparent process with fixed stages. You always know what is happening and what comes next.",
+    "steps": {
+      "brief": {
+        "title": "Brief and research",
+        "description": "We break down the task, audience and competitors. Goals and success metrics are fixed.",
+        "duration": "1 week"
+      },
+      "design": {
+        "title": "Prototype and design",
+        "description": "Structure, copy, an interactive prototype and final design in one system.",
+        "duration": "2–3 weeks"
+      },
+      "dev": {
+        "title": "Development",
+        "description": "Nuxt, TypeScript, tests and CI. Weekly demos on a live staging.",
+        "duration": "3–6 weeks"
+      },
+      "launch": {
+        "title": "Launch and support",
+        "description": "Release, analytics, monitoring. Then product growth along the roadmap.",
+        "duration": "Ongoing"
+      }
+    }
+  },
+  "work": {
+    "headline": "Work",
+    "title": "Selected projects",
+    "description": "A few cases we are proud of. The rest we will show in a meeting.",
+    "pageTitle": "All projects",
+    "pageDescription": "Dashboards, marketplaces, landing pages. Every case comes with the challenge, the solution and a measurable result.",
+    "all": "All projects",
+    "back": "All work",
+    "next": "Next project",
+    "meta": {
+      "client": "Client",
+      "role": "Role",
+      "stack": "Stack",
+      "duration": "Timeline"
+    },
+    "sections": {
+      "challenge": "Challenge",
+      "solution": "Solution",
+      "outcome": "Outcome"
+    },
+    "items": {
+      "atlas": {
+        "name": "Atlas Finance",
+        "category": "Fintech dashboard",
+        "year": "2026",
+        "result": "+140% active users",
+        "client": "Atlas Finance",
+        "role": "Design, front-end, integrations",
+        "stack": "Nuxt · TypeScript · WebSocket · D3",
+        "duration": "14 weeks",
+        "intro": "A customer portal for an investment platform: portfolio, trades and real-time analytics on any device.",
+        "challenge": "The old portal took six seconds to load, refreshed data on a timer and did not work on phones. The client team had to relaunch the product without pausing trading for a single day.",
+        "solution": "We designed a new information architecture and a design system, then built the portal on Nuxt with streaming quotes over WebSocket and virtualised tables. The migration ran in stages behind feature flags, with the old and new portals live side by side.",
+        "outcome": "A quarter after release the active audience grew by 140%, time to first interaction dropped from six seconds to 0.9, and support stopped receiving \"frozen portfolio\" tickets.",
+        "results": {
+          "r1": "Active users",
+          "r2": "Time to interactive",
+          "r3": "App store rating"
+        }
+      },
+      "orbit": {
+        "name": "Orbit Market",
+        "category": "Marketplace",
+        "year": "2025",
+        "result": "LCP 0.7s on mobile",
+        "client": "Orbit Market",
+        "role": "Front-end, performance",
+        "stack": "Nuxt · Vue · Node.js · Meilisearch",
+        "duration": "10 weeks",
+        "intro": "Storefront and catalogue for a marketplace with four hundred thousand products and instant search.",
+        "challenge": "The catalogue on the old monolith could not survive a sale: LCP of four seconds on mobile, search answering in a second, organic traffic falling every month.",
+        "solution": "We moved the storefront to Nuxt with SSR and edge caching, search migrated to Meilisearch, product cards got streaming and prioritised image loading. The backend stayed untouched — only a new API layer.",
+        "outcome": "LCP on mobile is 0.7 seconds, search responds in 40 milliseconds, organic traffic grew by 62% in six months. The November sale went through without a single incident.",
+        "results": {
+          "r1": "LCP on mobile",
+          "r2": "Search response",
+          "r3": "Organic traffic"
+        }
+      },
+      "lumen": {
+        "name": "Lumen",
+        "category": "SaaS landing",
+        "year": "2025",
+        "result": "9.4% lead conversion",
+        "client": "Lumen Analytics",
+        "role": "Strategy, design, development",
+        "stack": "Nuxt · Nuxt UI · motion-v · Nuxt Content",
+        "duration": "5 weeks",
+        "intro": "Landing page and documentation for a team analytics SaaS.",
+        "challenge": "A complex product that had to be explained in ten seconds. The previous site converted two percent of visitors into leads and nobody knew why.",
+        "solution": "We interviewed customers, rewrote the positioning and built a landing page with interactive demos and strict typography. Documentation moved to Nuxt Content in the same design language as the site.",
+        "outcome": "Lead conversion rose to 9.4%, average scroll depth doubled, and the site became the main lead channel instead of cold outreach.",
+        "results": {
+          "r1": "Lead conversion",
+          "r2": "Scroll depth",
+          "r3": "Weeks to release"
+        }
+      }
+    }
+  },
+  "stats": {
+    "projects": {
+      "label": "Projects launched"
+    },
+    "years": {
+      "label": "Years in business"
+    },
+    "retention": {
+      "label": "Clients come back"
+    },
+    "lcp": {
+      "label": "Average LCP, seconds"
+    }
+  },
+  "testimonials": {
+    "headline": "Testimonials",
+    "title": "What clients say",
+    "items": {
+      "t1": {
+        "quote": "A rare studio that thinks about the business, not only the pixels. The site paid for itself in the first quarter.",
+        "name": "Maria Sokolova",
+        "role": "CMO, Atlas Finance"
+      },
+      "t2": {
+        "quote": "Weekly demos, honest deadlines and code our own team could pick up without pain.",
+        "name": "Ilya Gromov",
+        "role": "CTO, Orbit Market"
+      },
+      "t3": {
+        "quote": "Strict design, zero fuss. Exactly what we wanted to show investors.",
+        "name": "Anna Vetrova",
+        "role": "Founder, Lumen"
+      }
+    }
+  },
+  "faq": {
+    "headline": "FAQ",
+    "title": "Common questions",
+    "items": {
+      "f1": {
+        "question": "How much does a website cost?",
+        "answer": "A landing page starts at $5,000, a corporate site at $12,000, web applications are estimated after the brief. The estimate is fixed before the start and never changes without your approval."
+      },
+      "f2": {
+        "question": "How long does it take?",
+        "answer": "A landing page takes 4–6 weeks, a website 8–12 weeks, an application from 3 months. You will see the first working version in week two."
+      },
+      "f3": {
+        "question": "What is your stack?",
+        "answer": "Nuxt, Vue, TypeScript, Tailwind CSS. Backend in Node.js or your stack. Everything lives in an open repository with CI and documentation."
+      },
+      "f4": {
+        "question": "What about support after launch?",
+        "answer": "The first month after release is included. After that, a support plan with an SLA or hourly work on new tasks."
+      },
+      "f5": {
+        "question": "How many revisions are included?",
+        "answer": "Two rounds at every stage. Usually one is enough: we agree on decisions before implementing them."
+      }
+    }
+  },
+  "cta": {
+    "headline": "Contact",
+    "title": "Have a project?\nLet's talk",
+    "description": "Write a few lines about your project. We reply within one business day with a plan and an estimate.",
+    "primary": "Write to us",
+    "secondary": "Telegram"
+  },
+  "footer": {
+    "description": "Web studio. Strict design, fast code, honest deadlines.",
+    "navigation": "Navigation",
+    "services": "Services",
+    "contacts": "Contacts",
+    "copyright": "© {year} NORMA. All rights reserved.",
+    "location": "Moscow — Berlin — remote"
+  }
+}

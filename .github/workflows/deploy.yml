@@ -1,0 +1,66 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [master]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# One deployment at a time; a newer push cancels the one still running.
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      # Resolves the site URL and base path for this repository:
+      #   user.github.io        -> base_path ""       origin https://user.github.io
+      #   user.github.io/repo   -> base_path "/repo"  origin https://user.github.io
+      # i18n joins its baseUrl with the full path (base included), so it gets
+      # the origin only — otherwise hreflang links would contain /repo twice.
+      - name: Configure Pages
+        id: pages
+        uses: actions/configure-pages@v5
+
+      - name: Generate static site
+        run: pnpm generate
+        env:
+          NUXT_APP_BASE_URL: ${{ steps.pages.outputs.base_path }}/
+          NUXT_PUBLIC_I18N_BASE_URL: ${{ steps.pages.outputs.origin }}
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: .output/public
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v4

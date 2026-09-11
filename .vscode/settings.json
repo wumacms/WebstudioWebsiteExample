@@ -1,0 +1,68 @@
+{
+  // Форматирование выполняет ESLint (Stylistic), а не Prettier.
+  // Prettier конфликтует с правилами @stylistic из nuxt.config.ts,
+  // поэтому он отключён для этого проекта.
+  "prettier.enable": false,
+
+  // Автоисправление ESLint при сохранении.
+  // formatOnSave выключен намеренно: иначе сработал бы сторонний
+  // форматтер и снова переписал кавычки/запятые.
+  "editor.formatOnSave": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+
+  "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+
+  "[javascript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+
+  // JSON ESLint в этой конфигурации не обрабатывает —
+  // оставляем встроенный форматтер VS Code.
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features",
+    "editor.formatOnSave": true
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features",
+    "editor.formatOnSave": true
+  },
+
+  // Языки, которые проверяет и чинит ESLint
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "vue",
+    "yaml",
+    "markdown"
+  ],
+
+  "eslint.useFlatConfig": true,
+
+  // Встроенное форматирование TS/JS выключено, чтобы не спорило с ESLint
+  "javascript.format.enable": false,
+  "typescript.format.enable": false,
+
+  "files.eol": "\n",
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+
+  "typescript.tsdk": "node_modules/typescript/lib"
+}
