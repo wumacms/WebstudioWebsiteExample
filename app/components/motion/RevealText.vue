@@ -30,7 +30,7 @@ const skip = useRevealSkip()
 
 // The words themselves are fully clipped while hidden, so an observer on them
 // would never fire. Observe the (unclipped) root instead and drive every word.
-const root = ref<HTMLElement | null>(null)
+const root = useTemplateRef('root')
 const inView = useInView(root, { once: props.once, margin: '0px 0px -8% 0px' })
 
 const lines = computed(() => {

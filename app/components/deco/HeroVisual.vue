@@ -16,7 +16,6 @@ const corners = [
       fade="radial"
     />
 
-    <!-- crosshair with travelling beams -->
     <div
       aria-hidden="true"
       class="absolute inset-y-0 left-1/2 w-px line-dashed-y"
@@ -40,7 +39,6 @@ const corners = [
 
     <Rings class="absolute left-1/2 top-1/2 size-[min(88%,640px)] -translate-x-1/2 -translate-y-1/2" />
 
-    <!-- centre marker -->
     <span
       aria-hidden="true"
       class="absolute left-1/2 top-1/2 size-3 -translate-x-1/2 -translate-y-1/2 bg-primary"
@@ -50,7 +48,6 @@ const corners = [
       class="absolute left-1/2 top-1/2 size-7 -translate-x-1/2 -translate-y-1/2 ring-1 ring-inset ring-accented"
     />
 
-    <!-- corner labels -->
     <span
       v-for="(corner, i) in corners"
       :key="corner.key"

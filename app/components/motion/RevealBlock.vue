@@ -24,7 +24,7 @@ const visible = { transform: 'translateY(0%)' }
 const skip = useRevealSkip()
 
 // The inner block is clipped while hidden, so observe the wrapper instead.
-const root = ref<HTMLElement | null>(null)
+const root = useTemplateRef('root')
 const inView = useInView(root, { once: props.once, margin: '0px 0px -8% 0px' })
 </script>
 

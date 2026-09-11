@@ -27,7 +27,6 @@ const rings = [
       :stroke-dasharray="ring.dash"
       :style="{ animationDuration: ring.duration }"
     />
-    <!-- a solid quarter arc, the "hand" of the composition -->
     <path
       class="rings__ring"
       d="M360 150A210 210 0 0 1 570 360"

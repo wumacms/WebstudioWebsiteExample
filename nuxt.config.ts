@@ -1,10 +1,5 @@
 import { cases } from './app/utils/cases'
 
-// Every route that must exist in the static build. `/en` is only reachable
-// through the locale switcher (a button, not a link), so the crawler would
-// never find it on its own.
-// No trailing slashes: `/en/` and the crawled `/en` would be rendered twice
-// and race on the same prerender cache file.
 const locales = ['', '/en']
 const prerenderRoutes = locales.flatMap(prefix => [
   prefix || '/',

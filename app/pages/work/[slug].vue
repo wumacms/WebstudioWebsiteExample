@@ -25,7 +25,6 @@ useSeoMeta({
 
 <template>
   <article>
-    <!-- Intro -->
     <div class="relative divider-dashed-b px-6 pb-14 pt-10 lg:px-12 lg:pb-20 lg:pt-14">
       <Pattern
         variant="dots"
@@ -71,7 +70,6 @@ useSeoMeta({
       </div>
     </div>
 
-    <!-- Meta -->
     <div class="cells-dashed border-b border-default sm:grid-cols-2 lg:grid-cols-4">
       <div
         v-for="field in meta"
@@ -87,7 +85,6 @@ useSeoMeta({
       </div>
     </div>
 
-    <!-- Hero image: shares its view-transition-name with the card -->
     <figure class="relative border-b border-default">
       <GridCircle side="bottom-left" />
       <GridCircle
@@ -106,7 +103,6 @@ useSeoMeta({
       >
     </figure>
 
-    <!-- Story -->
     <div class="cells-dashed border-b border-default">
       <div
         v-for="(section, i) in sections"
@@ -137,7 +133,6 @@ useSeoMeta({
       </div>
     </div>
 
-    <!-- Gallery -->
     <div class="cells-dashed border-b border-default md:grid-cols-2">
       <figure
         v-for="n in 2"
@@ -159,7 +154,6 @@ useSeoMeta({
       </figure>
     </div>
 
-    <!-- Results -->
     <div class="relative border-b border-default">
       <GridCross side="top-left" />
       <GridCross side="top-right" />
@@ -193,7 +187,6 @@ useSeoMeta({
       </div>
     </div>
 
-    <!-- Next -->
     <NuxtLink
       :to="localePath(`/work/${next.slug}`)"
       class="group relative flex items-center justify-between gap-6 border-b border-default px-6 py-10 transition-colors duration-300 hover:bg-muted lg:px-12 lg:py-14"

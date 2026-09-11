@@ -1,8 +1,3 @@
-/**
- * Case studies. Copy lives in `i18n/locales/*.json` under `work.items.<slug>`;
- * this file holds only what must not be translated: slugs, image seeds and
- * the numbers behind the result counters.
- */
 export interface CaseResult {
   key: 'r1' | 'r2' | 'r3'
   value: number
@@ -13,7 +8,6 @@ export interface CaseResult {
 
 export interface CaseStudy {
   slug: string
-  /** Lorem Picsum seed — the same seed always returns the same photo. */
   seed: string
   results: CaseResult[]
 }

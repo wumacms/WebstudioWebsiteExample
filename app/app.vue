@@ -3,8 +3,6 @@ import * as locales from '@nuxt/ui/locale'
 
 const { t, locale } = useI18n()
 const head = useLocaleHead()
-// GitHub Pages serves project sites under `/<repo>/`, so public assets must
-// be prefixed with the configured base URL.
 const { app } = useRuntimeConfig()
 
 useHead(() => ({

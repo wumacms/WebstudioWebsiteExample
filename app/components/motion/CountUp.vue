@@ -14,7 +14,7 @@ const props = withDefaults(defineProps<{
 
 const { locale } = useI18n()
 
-const el = ref<HTMLElement | null>(null)
+const el = useTemplateRef('el')
 const inView = useInView(el, { once: true, amount: 0.6 })
 const value = ref(0)
 
