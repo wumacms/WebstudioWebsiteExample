@@ -18,6 +18,11 @@ logs
 .fleet
 .idea
 
+# AI tooling
+.claude
+.mcp.json
+skills-lock.json
+
 # Local env files
 .env
 .env.*
