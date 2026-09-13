@@ -78,10 +78,10 @@ export default defineNuxtConfig({
 
   i18n: {
     baseUrl: 'https://norma.studio',
-    defaultLocale: 'ru',
+    defaultLocale: 'zh',
     strategy: 'prefix_except_default',
     locales: [
-      { code: 'ru', language: 'ru-RU', name: 'Русский', file: 'ru.json' },
+      { code: 'zh', language: 'zh-CN', name: '中文', file: 'zh.json' },
       { code: 'en', language: 'en-US', name: 'English', file: 'en.json' }
     ],
     detectBrowserLanguage: {

@@ -1,0 +1,253 @@
+{
+  "brand": {
+    "name": "NORMA",
+    "tagline": "网络工作室"
+  },
+  "seo": {
+    "title": "NORMA — 网络工作室。不妥协地打造网站与产品",
+    "description": "我们使用 Nuxt 和 Vue 设计与开发高性能网站、落地页与 Web 应用。从首次需求沟通到上线发布,全程由同一支团队负责。"
+  },
+  "nav": {
+    "services": "服务",
+    "process": "流程",
+    "work": "作品",
+    "faq": "常见问题",
+    "contact": "启动项目",
+    "language": "语言",
+    "theme": "切换主题",
+    "menu": "菜单",
+    "github": "GitHub"
+  },
+  "hero": {
+    "badge": "2026 Q4 项目档期开放中",
+    "title": "不妥协地打造\n网站与产品",
+    "subtitle": "我们使用 Nuxt 和 Vue 设计与开发高性能网站、落地页与 Web 应用。从首次需求沟通到正式上线,全程由同一支团队负责。",
+    "primary": "启动项目",
+    "secondary": "查看作品",
+    "copy": "复制邮箱",
+    "copied": "已复制",
+    "specs": {
+      "stack": "Nuxt · Vue · TS",
+      "speed": "LCP < 1s",
+      "design": "设计系统",
+      "since": "始于 2018"
+    }
+  },
+  "clients": {
+    "label": "客户信赖"
+  },
+  "services": {
+    "headline": "服务",
+    "title": "全流程服务:\n从创意到稳定上线",
+    "description": "我们可以承接整个项目,也可以在任意阶段介入。没有中间环节,没有虚高报价,每一周都有可见的成果。",
+    "items": {
+      "landing": {
+        "title": "营销页与官网",
+        "description": "结构清晰、加载迅速、首日即接入分析的高转化页面。"
+      },
+      "apps": {
+        "title": "Web 应用",
+        "description": "基于 Nuxt、Vue 与 TypeScript 的客户门户、仪表盘与 SaaS。架构足以支撑业务持续增长。"
+      },
+      "design": {
+        "title": "UI/UX 设计",
+        "description": "无需额外解释的设计系统、原型与界面。"
+      },
+      "ecommerce": {
+        "title": "电商平台",
+        "description": "商品目录快、支付顺畅、与 CRM、库存、物流深度集成的电商解决方案。"
+      },
+      "performance": {
+        "title": "性能与 SEO",
+        "description": "Core Web Vitals 全绿、SSR、技术 SEO 与结构化数据一应俱全。"
+      },
+      "support": {
+        "title": "维护与持续增长",
+        "description": "安心的长期维护:监控、依赖更新、按路线图稳步交付新功能。"
+      }
+    }
+  },
+  "process": {
+    "headline": "流程",
+    "title": "四个步骤,\n全程透明",
+    "description": "阶段固定、节奏清晰的过程。当前进展与下一步计划,您随时都能掌握。",
+    "steps": {
+      "brief": {
+        "title": "需求沟通与调研",
+        "description": "拆解需求、研究目标用户与竞品,确定目标与成功指标。",
+        "duration": "1 周"
+      },
+      "design": {
+        "title": "原型与设计",
+        "description": "信息结构、文案、交互原型与终稿设计,在统一的设计系统中完成。",
+        "duration": "2–3 周"
+      },
+      "dev": {
+        "title": "开发",
+        "description": "Nuxt、TypeScript、自动化测试与 CI。每周在准生产环境进行演示。",
+        "duration": "3–6 周"
+      },
+      "launch": {
+        "title": "上线与维护",
+        "description": "正式发布、数据分析、持续监控。后续按产品路线图持续迭代。",
+        "duration": "长期"
+      }
+    }
+  },
+  "work": {
+    "headline": "作品",
+    "title": "精选项目",
+    "description": "以下是我们引以为豪的部分案例。更多作品,欢迎在面谈时为您呈现。",
+    "pageTitle": "全部项目",
+    "pageDescription": "仪表盘、电商平台、营销页——每个案例都包含挑战、解决方案与可量化的成果。",
+    "all": "全部项目",
+    "back": "返回作品列表",
+    "next": "下一个项目",
+    "meta": {
+      "client": "客户",
+      "role": "角色",
+      "stack": "技术栈",
+      "duration": "周期"
+    },
+    "sections": {
+      "challenge": "挑战",
+      "solution": "方案",
+      "outcome": "成果"
+    },
+    "items": {
+      "atlas": {
+        "name": "Atlas Finance",
+        "category": "金融科技仪表盘",
+        "year": "2026",
+        "result": "月活用户 +140%",
+        "client": "Atlas Finance",
+        "role": "设计、前端与系统集成",
+        "stack": "Nuxt · TypeScript · WebSocket · D3",
+        "duration": "14 周",
+        "intro": "投资平台的客户门户:投资组合、交易记录与实时分析,在任何设备上都能顺畅使用。",
+        "challenge": "旧门户加载耗时六秒,数据按定时器刷新,且在手机上几乎无法使用。客户团队需要在不暂停任何一天交易的前提下完成产品重启。",
+        "solution": "我们重新设计了信息架构与设计系统,并基于 Nuxt 构建了门户,行情通过 WebSocket 流式推送,表格采用虚拟滚动。整个迁移按阶段在功能开关后推进,新旧门户并行运行。",
+        "outcome": "上线一个季度后,月活用户增长 140%,首次可交互时间从 6 秒缩短至 0.9 秒,客服再也没收到过\"持仓页面卡死\"的投诉。",
+        "results": {
+          "r1": "月活用户",
+          "r2": "首次可交互时间",
+          "r3": "应用商店评分"
+        }
+      },
+      "orbit": {
+        "name": "Orbit Market",
+        "category": "电商平台",
+        "year": "2025",
+        "result": "移动端 LCP 0.7 秒",
+        "client": "Orbit Market",
+        "role": "前端与性能优化",
+        "stack": "Nuxt · Vue · Node.js · Meilisearch",
+        "duration": "10 周",
+        "intro": "拥有四十万商品的电商平台前端与商品目录,并支持毫秒级搜索。",
+        "challenge": "旧版单体架构的目录页扛不住大促:移动端 LCP 4 秒,搜索响应 1 秒,自然流量每月下滑。",
+        "solution": "将电商前端迁移到 Nuxt,启用 SSR 与边缘缓存;搜索切换至 Meilisearch;商品卡片实现流式渲染与图片优先级加载。后端保持不变,只新增了一层 API 适配。",
+        "outcome": "移动端 LCP 降至 0.7 秒,搜索响应 40 毫秒,六个月内自然流量增长 62%。11 月大促顺利通过,全程零事故。",
+        "results": {
+          "r1": "移动端 LCP",
+          "r2": "搜索响应",
+          "r3": "自然流量"
+        }
+      },
+      "lumen": {
+        "name": "Lumen",
+        "category": "SaaS 营销页",
+        "year": "2025",
+        "result": "9.4% 商机转化率",
+        "client": "Lumen Analytics",
+        "role": "策略、设计与开发",
+        "stack": "Nuxt · Nuxt UI · motion-v · Nuxt Content",
+        "duration": "5 周",
+        "intro": "为一款团队分析 SaaS 产品打造的营销页与文档站点。",
+        "challenge": "产品本身复杂度高,却需要在十秒内向访客讲清楚价值。旧站仅 2% 的访客转化为商机,团队也找不到具体原因。",
+        "solution": "我们与客户开展用户访谈,重写产品定位,并打造了带交互演示与严谨排印的营销页。文档站点同步迁移到 Nuxt Content,与官网共用同一设计语言。",
+        "outcome": "商机转化率提升至 9.4%,平均浏览深度翻倍,网站取代冷邮件成为主要的商机来源。",
+        "results": {
+          "r1": "商机转化率",
+          "r2": "浏览深度",
+          "r3": "上线周数"
+        }
+      }
+    }
+  },
+  "stats": {
+    "projects": {
+      "label": "已上线项目"
+    },
+    "years": {
+      "label": "行业经验"
+    },
+    "retention": {
+      "label": "客户复购率"
+    },
+    "lcp": {
+      "label": "平均 LCP(秒)"
+    }
+  },
+  "testimonials": {
+    "headline": "客户评价",
+    "title": "客户的真实反馈",
+    "items": {
+      "t1": {
+        "quote": "这是一家真正懂业务、而不只是懂像素的工作室。新网站在第一个季度就收回了成本。",
+        "name": "玛丽亚·索科洛娃",
+        "role": "CMO,Atlas Finance"
+      },
+      "t2": {
+        "quote": "每周演示、按时交付、代码质量过关——我们自己的团队接手时几乎没有障碍。",
+        "name": "伊利亚·格罗莫夫",
+        "role": "CTO,Orbit Market"
+      },
+      "t3": {
+        "quote": "严谨克制、零多余修饰,正是我们想展示给投资人的样子。",
+        "name": "安娜·韦特罗娃",
+        "role": "创始人,Lumen"
+      }
+    }
+  },
+  "faq": {
+    "headline": "常见问题",
+    "title": "您可能关心的问题",
+    "items": {
+      "f1": {
+        "question": "网站开发费用是多少?",
+        "answer": "营销页起步 35,000 元,企业官网起步 85,000 元,Web 应用根据详细需求评估。报价在项目启动前确定,未经您同意不会变更。"
+      },
+      "f2": {
+        "question": "项目周期一般是多长?",
+        "answer": "营销页 4–6 周,官网 8–12 周,Web 应用 3 个月起。项目启动后的第二周,您就能看到第一版可用的成果。"
+      },
+      "f3": {
+        "question": "你们使用什么技术栈?",
+        "answer": "Nuxt、Vue、TypeScript、Tailwind CSS。前端即后端可选 Node.js,也可对接您现有技术栈。所有代码托管在开放仓库,配备 CI 与完整文档。"
+      },
+      "f4": {
+        "question": "项目上线后有维护服务吗?",
+        "answer": "上线后的首月维护包含在项目费用中。之后可选择签订 SLA 维护合约,或按小时计费持续支持。"
+      },
+      "f5": {
+        "question": "包含多少次修改?",
+        "answer": "每个阶段默认包含两轮修改。通常一轮就足够——我们在实现前就会先与您对齐方案。"
+      }
+    }
+  },
+  "cta": {
+    "headline": "联系我们",
+    "title": "有项目想合作?\n欢迎聊聊",
+    "description": "简单介绍您的项目即可。我们会在一个工作日内回复,并提供初步方案与报价。",
+    "primary": "联系我们",
+    "secondary": "Telegram"
+  },
+  "footer": {
+    "description": "网络工作室。严谨设计、高速代码、按时交付。",
+    "navigation": "导航",
+    "services": "服务",
+    "contacts": "联系方式",
+    "copyright": "© {year} NORMA。版权所有。",
+    "location": "北京 — 上海 — 远程协作"
+  }
+}
